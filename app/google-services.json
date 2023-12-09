@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "421537782872",
+    "firebase_url": "https://run4life-5bbc5-default-rtdb.firebaseio.com",
+    "project_id": "run4life-5bbc5",
+    "storage_bucket": "run4life-5bbc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421537782872:android:11a7d6303806fa8bb7be2d",
+        "android_client_info": {
+          "package_name": "app.principal.run4life"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZazTrHfnbEWzci1jAh-F2luEAmJBp-kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421537782872:android:b1764b72d7b7e64db7be2d",
+        "android_client_info": {
+          "package_name": "com.example.contadorkms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZazTrHfnbEWzci1jAh-F2luEAmJBp-kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

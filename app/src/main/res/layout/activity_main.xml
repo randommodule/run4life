@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="openAlertActivity"
+    tools:context="app.principal.run4life.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_menu_wallpaper"
+        tools:context="app.principal.run4life.MainActivity"
+        tools:layout_editor_absoluteX="-51dp"
+        tools:layout_editor_absoluteY="-110dp">
+
+        <!-- Nuevo botón "Alertas SoS" -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="176dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="126dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="130dp"
+            android:background="@drawable/button_bottom"
+            android:onClick="openSecondActivity"
+            android:text="Comenzar" />
+
+        <Button
+            android:id="@+id/alertasSosButton"
+            android:layout_width="176dp"
+            android:layout_height="51dp"
+            android:layout_below="@+id/startButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="128dp"
+            android:background="@drawable/button_bottom"
+            android:onClick="openAlertActivity"
+            android:text="Alertas SoS" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="176dp"
+            android:layout_height="51dp"
+            android:layout_below="@+id/alertasSosButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="128dp"
+            android:background="@drawable/button_bottom"
+            android:onClick="closeApplication"
+            android:text="Salir" />
+
+        <ImageView
+            android:id="@+id/logoImageMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/run4life" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
